@@ -1,4 +1,5 @@
 ---
+layout: layout.njk
 title: Hello World
 ---
 

@@ -2,9 +2,10 @@ stackbitVersion: ~0.3.0
 ssgName: custom
 buildCommand: npx @11ty/eleventy
 publishDir: _site
-pagesDir: content
+# pagesDir: content
 staticDir: static
 uploadDir: images
+pageLayoutKey: layout
 # Models
 models:
   # Pages
