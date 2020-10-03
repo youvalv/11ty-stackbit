@@ -1,0 +1,19 @@
+stackbitVersion: ~0.3.0
+ssgName: custom
+buildCommand: eleventy
+publishDir: _site
+pagesDir: content
+staticDir: static
+uploadDir: images
+# Models
+models:
+  # Pages
+  home:
+    type: page
+    label: Home
+    description: "Landing page"
+    fields:
+    - type: string
+      name: title
+      label: Title
+      required: true
