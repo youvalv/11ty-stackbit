@@ -1,6 +1,6 @@
 stackbitVersion: ~0.3.0
 ssgName: custom
-buildCommand: eleventy
+buildCommand: npx @11ty/eleventy
 publishDir: _site
 pagesDir: content
 staticDir: static
