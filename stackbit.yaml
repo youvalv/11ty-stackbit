@@ -12,10 +12,8 @@ models:
   home:
     type: page
     label: Home
-    description: "Landing page"
     layout: layout.njk
     fields:
     - type: string
       name: title
       label: Title
-      required: true
